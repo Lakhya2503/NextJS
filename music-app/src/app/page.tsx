@@ -1,8 +1,8 @@
 
 export default function Home() {
   return (
-    <h1 className="text-2xl font-semibold text-[#40312F] text-center mt-4">
-        CODE WITH CAFFEEN
-    </h1>
+      <main className="min-h-screen bg-black/[0.96] antialiased bg-grid-white/[0.02]">
+        <h2 className="text-center " >CODE WITH CAFFINE</h2>
+      </main>
   );
 }

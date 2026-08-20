@@ -19,8 +19,10 @@ export default function RootLayout({
       lang="en"
       className="max-h-fit min-h-screen p-2 dark"
     >
-      <body className="min-h-full flex flex-col dark:text-white dark:bg-zinc-700 bg-white">
+      <body className="min-h-full flex flex-col dark:text-white dark:bg-black bg-white">
+        <div className="relative w-full flex items-center justify-center">
         <Navbar/>
+        </div>
         {children}
         </body>
     </html>
