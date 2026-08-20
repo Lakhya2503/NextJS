@@ -1,5 +1,5 @@
 
-export interface Course {
+export default interface Course {
       id: number;
       title: string,
       slug: string,
@@ -9,9 +9,9 @@ export interface Course {
       isFeatured: boolean,
       image: string,
       lessons: number,
-      topics: [string],
-      createdDate: Date,
-      lastUpdate: Date,
+      topics: string[],
+      createdDate: string,
+      lastUpdate: string,
       level: string,
       rating: number,
       numberOfEnrolled: number

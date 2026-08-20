@@ -3,6 +3,7 @@
 import React from "react";
 import musicData from "@/data/music_courses.json";
 import Link from "next/link";
+import Image from "next/image";
 import Course from "@/types/CouresType";
 import { BackgroundGradient } from "./ui/background-gradient";
 
@@ -13,7 +14,7 @@ const FeaturedCourses = () => {
       <div>
         <div className="text-center flex flex-col gap-4">
           <h2 className="text-base text-teal-600 font-semibold tracking-wide uppercase">
-            Featured Courses
+            Featured Songs
           </h2>
           <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl">
             {" "}
@@ -27,14 +28,20 @@ const FeaturedCourses = () => {
             <div className="flex justify-center" key={course.id}>
               <BackgroundGradient className="flex flex-col rounded-[22px] bg-white dark:bg-zinc-900 overflow-hidden h-full max-w-sm">
                 <div className="p-4 sm:p-6 flex flex-col items-center text-center flex-grow">
-                  <img src={course.image} alt="" />
+                  <img
+                    src={course.image}
+                    alt={course.title}
+                    width={400}
+                    height={225}
+                    className="object-cover rounded-xl"
+                  />
                   <p className="text-lg sm:text-xl text-black mt-4 mb-2 dark:text-neutral-200">
                     {course.title}
                   </p>
                   <p className="text-sm text-neutral-600 dark:text-neutral-400 flex-grow">
                     {course.description}
                   </p>
-                  <Link href={`/courses/${course.slug}`}>Learn More</Link>
+                  <Link href={`/courses/${course.slug}`} className="mt-5 hover:text-white text-blue-600">Learn More</Link>
                 </div>
               </BackgroundGradient>
             </div>
