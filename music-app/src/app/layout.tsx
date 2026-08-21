@@ -1,8 +1,10 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist, Geist_Mono, Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
+import { cn } from "@/lib/utils";
 
+const inter = Inter({subsets:['latin'],variable:'--font-sans'});
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -17,7 +19,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className="max-h-fit min-h-screen p-2 dark"
+      className={cn("max-h-fit min-h-screen p-2 dark", "font-sans", inter.variable)}
     >
       <body className="min-h-full flex flex-col dark:text-white dark:bg-black bg-white">
         <div className="relative w-full flex items-center justify-center">
