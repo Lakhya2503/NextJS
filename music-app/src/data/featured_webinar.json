@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Discover New Music",
+    "description": "Explore fresh tracks, emerging artists, and trending sounds curated for every kind of listener.",
+    "link": "Explore Music"
+  },
+  {
+    "title": "Create Your Playlist",
+    "description": "Build personalized playlists with your favorite songs and keep every mood just a play away.",
+    "link": "Create Playlist"
+  },
+  {
+    "title": "Stream Your Favorites",
+    "description": "Enjoy your favorite tracks with high-quality audio and a smooth, uninterrupted listening experience.",
+    "link": "Start Listening"
+  },
+  {
+    "title": "Find Your Sound",
+    "description": "Discover music that matches your mood, taste, and personality from a wide variety of genres.",
+    "link": "Find Music"
+  },
+  {
+    "title": "Trending Tracks",
+    "description": "Stay updated with the latest hits and discover what music lovers are listening to right now.",
+    "link": "View Trending"
+  },
+  {
+    "title": "Explore Artists",
+    "description": "Meet talented artists and discover their latest releases, albums, and unforgettable tracks.",
+    "link": "Explore Artists"
+  },
+  {
+    "title": "Music for Every Mood",
+    "description": "Whether you want to relax, focus, celebrate, or feel inspired, there is always a perfect song for you.",
+    "link": "Browse Moods"
+  },
+  {
+    "title": "Your Music Journey",
+    "description": "Save your favorite tracks, discover new sounds, and create memories through the power of music.",
+    "link": "Start Your Journey"
+  }
+]
